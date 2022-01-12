@@ -1,4 +1,4 @@
-鲜丰水果 vue-cli 工具
+cli 工具
 ```
    npm install -g xf-vue-cli
 ```
