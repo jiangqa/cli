@@ -1,10 +1,10 @@
 {
-  "name": "xf-vue-cli",
-  "version": "2.1.0",
+  "name": "jiangqa-cli",
+  "version": "2.2.0",
   "description": "",
   "main": "",
   "bin": {
-    "xf-vue-cli": "bin/xf-vue-cli.js"
+    "jiangqa-cli": "bin/vue-cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"

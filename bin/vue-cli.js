@@ -5,13 +5,11 @@ const inquirer = require('inquirer')
 const insertRouter = require('../lib/insert-router')
 const insertComponent = require('../lib/insert-component')
 const project = {
-    '供应链': {'基地erp-admin': '', '基地erp-h5': '', '基地erp-service': ''},
-    'POS': {'POS-admin': '', 'POS-iot': '', 'POS-service': '', 'POS-Android': ''},
-    '数据':{'数据门户-admin':'git@codeup.aliyun.com:xianfengsg/datagroup/data-portal.git','数据门户-h5':''}
+    '': {},
 }
 const initProject = {
-    h5: "git@codeup.aliyun.com:xianfengsg/web/vue3-h5.git",
-    admin: 'git@codeup.aliyun.com:xianfengsg/web/vue3-admin.git'
+    h5: "https://github.com/jiangqa/vue3-ts-vite-h5.git",
+    admin: 'https://github.com/jiangqa/vue3-ts-vite-admin.git'
 }
 
 const promptList = [
